@@ -29,7 +29,7 @@
     mkdir("TokensGenerated/".$ucid, 0777, true);
   }
 
-  file_put_contents("TokensGenerated/".$ucid."/".$ucid."_Info.plist", $activation);
+  file_put_contents("TokensGenerated/".$ucid."/".$ucid."-act-req.token", $activation);
 
   die();
  ?>
